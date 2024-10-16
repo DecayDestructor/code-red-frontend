@@ -145,7 +145,7 @@ const Layout = (props) => {
           </div>
           <div
             style={
-              countupState < 480
+              countupState < 90
                 ? { display: 'none' }
                 : {
                     backgroundColor: colors.boxBackgroundColor,
